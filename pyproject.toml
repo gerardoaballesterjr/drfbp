@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=80.9.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drfbp"
+version = "0.0.1"
+description = "Django REST Framework Boilerplate Generator"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Gerardo A. Ballester Jr.", email = "gerardoaballesterjr@gmail.com" }
+]
+
+keywords = ["drf", "django", "rest framework", "boilerplate", "generator"]
+
+classifiers = [
+   "Programming Language :: Python :: 3",
+  "Framework :: Django",
+  "Framework :: Django :: 5.2",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Code Generators",
+]
+
+dependencies = [
+  "django>=5.2.3",
+  "djangorestframework>=3.16.0",
+  "django-cors-headers>=4.7.0",
+  "djangorestframework_simplejwt>=5.5.0",
+  "drf-spectacular>=0.28.0",
+  "gunicorn>=23.0.0",
+  "psycopg2-binary>=2.9.10",
+  "whitenoise>=6.9.0",
+  "isort>=6.0.1",
+  "black>=25.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/gerardoaballesterjr/drfbp"
+Repository = "https://github.com/gerardoaballesterjr/drfbp"
+Issues = "https://github.com/gerardoaballesterjr/drfbp/issues"
